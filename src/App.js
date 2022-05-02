@@ -13,7 +13,7 @@ export default function App() {
     const newbraSize = fullBust - underBust;
     setBraSize(newbraSize);
   };
-   
+  
 
   return (
     <>
@@ -66,6 +66,7 @@ export default function App() {
             }
           })()}
         </p>
+        <EuBraSize/>
       </div>
     </>
   );
